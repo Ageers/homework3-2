@@ -19,6 +19,19 @@ public class Main {
         String result = String.format("%.3f",average);
         System.out.println(result);
  */
+        // Подсчёт положительных из N вводимых Ввод: N, затем N целых. Вывести: сколько из них > 0.
+
+        int n = sc.nextInt();
+        int chislo;
+        int positive = 0;
+
+        for (int i = 0; i < n; i++){
+            chislo = sc.nextInt();
+            if (chislo > 0){
+                positive++;
+            }
+        }
+        System.out.println(positive);
 
 
 
